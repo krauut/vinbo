@@ -63,30 +63,32 @@
   </div>
 
 <div class="inner-container-payment">
+
   <div class="first-box">
-    <div class="card-details">
-      <h3>Enter payment details</h3>
-    <div class="card-images"></div>
-    <div class="option card-name">
-      <h4>Card Holder</h4>
-      <input type="text" name="address" required>
+
+    <div class="inner-container">
+
+      <form>
+
+        <ul class="payment">
+          <li>
+            <label>Card Number</label>
+            <input type="number" min="0" max="999" name="field1" class="field-long" placeholder="" />
+          </li>
+          <li>
+            <label>Name on card</label>
+            <input type="text" min="0" max="999" name="field2" class="field-long" placeholder="" />
+          </li>
+
+
+        </ul>
+
+      </form>
+
     </div>
-    <div class="option card-number">
-      <h4>Card Number</h4>
-      <input type="number" name="windows" min="0" max="100" required>
-    </div>
-    <div class="option exp-date">
-      <h4>Exp Date</h4>
-      <input type="number" name="windows" min="0" max="100" style="width: 90px;" required>
-      /
-      <input type="number" name="windows" min="0" max="100" style="width: 90px;" required>
-    </div>
-    <div class="option cvc">
-      <h4>CVC</h4>
-      <input type="number" name="windows" min="0" max="100" style="width: 90px;" required>
-    </div>
+
   </div>
-  </div>
+
   <div class="second-box">
     <div class="price-of company"><h3>Company nr1</h3></div>
     <div class="price-of windows"><h4 class="left">5x Windows</h4><h4 class="right">150dkk</h4></div>
