@@ -1,0 +1,126 @@
+body {
+  background: #f7f7f7;
+}
+
+.registration-container {
+  width: 100%;
+  min-height: 800px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-box {
+  margin-top: 150px!important;
+  width: 50%;
+  height: auto;
+}
+
+.reg-type {
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.bigger-box {
+  width: 60%;
+  background: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smaller-box {
+  width: 40%;
+  background: grey;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+
+.reg-fields-s {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.reg-fields-l {
+  display: none;
+  min-height: 300px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  position: relative;
+}
+
+.just-holder {
+  margin: 50px 0 80px 0;
+  width: auto;
+  height: auto
+}
+
+.name {
+  display: inline-flex;
+}
+.name div {
+
+}
+
+.name input {
+  width: 100px;
+}
+
+.email input {
+  width: 220px;
+}
+
+.password input {
+  width: 100px;
+}
+
+.option input {
+    margin-bottom: 10px;
+    height: 25px;
+    display: inline-flex;
+    border-radius: 2px;
+}
+
+.option h4 {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.submit-registration {
+  background: green;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+
+
+footer {
+  height: 50px;
+}
+.footer-container-three {
+  height: 100%;
+}

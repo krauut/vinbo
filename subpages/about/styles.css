@@ -1,0 +1,76 @@
+body {
+  background: #f7f7f7;
+}
+
+.about-container {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+}
+
+
+.about-box {
+  padding-top: 180px;
+  width: 70%;
+  min-height: 550px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+  margin-bottom: 50px;
+}
+
+.holder {
+  width: 90%;
+  height: auto;
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #555f77;
+  margin-bottom: 20px;
+}
+
+.find-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #555f77;
+  margin-bottom: 20px;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #555f77;
+  margin-bottom: 20px;
+}
+
+.our-mission h1, .about h1, .find-us h1, .contact-us { font-weight: 100;}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #555f77;
+}
+
+p {
+  text-align: left;
+}
+
+footer {
+  height: 50px;
+}
+.footer-container-three {
+  height: 100%;
+}

@@ -1,0 +1,162 @@
+body {
+  background: #f7f7f7;
+}
+
+.registration-container {
+  width: 100%;
+  min-height: 550px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 50px;
+  color: red;
+}
+
+
+
+.log-fields-l {
+  min-height: 300px;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  position: relative;
+}
+h5 {
+  margin-bottom: 30px;
+}
+
+.just-holder {
+  margin: 30px 0 80px 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.email input {
+  width: 220px;
+}
+
+.password input {
+  width: 220px;
+}
+
+.option input {
+    margin-bottom: 10px;
+    height: 25px;
+    display: inline-flex;
+    border-radius: 2px;
+}
+
+.login {
+  width: 220px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.option h4 {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.submiit {
+  background: green;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+
+
+.cms-panel-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: white;
+  width: 70%;
+  height: 400px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+.box {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box2 {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-text {
+  width: 100%;
+  text-align: center;
+  margin: 20px; 0;
+}
+
+.linee {
+  width: 4px;
+  border-radius: 2px;
+  height: 80%;
+  background: black;
+}
+
+.piechart {
+  width: 60%;
+}
+
+.companyy {
+  margin-top: 10px;
+  width: 80%;
+  background: grey;
+  height: 50px;
+  display: inline-flex;
+}
+
+.paart1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.paart2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+footer {
+  height: 50px;
+}
+.footer-container-three {
+  height: 100%;
+}

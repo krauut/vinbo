@@ -1,0 +1,53 @@
+body {
+  background: #f7f7f7;
+}
+
+
+.outterr-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.innerr-container {
+  padding-top: 60px;
+  width: 50%;
+  height: 300px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy,
+.offer {
+  width: 250px;
+  height: 260px;
+      margin: 0 15px;
+}
+
+.box {
+    background: white;
+    width: 250px;
+    height: 250px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+h4 {
+  text-align: center;
+}
+
+.buy:hover,.offer:hover {
+  transform: scale(1.05);
+}
+
+
+
+footer {
+  height: 50px;
+}
+.footer-container-three {
+  height: 100%;
+}
