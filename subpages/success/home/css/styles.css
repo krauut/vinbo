@@ -96,6 +96,9 @@ a {
 a:hover {
   color: #555!important;
 }
+a:hover {
+  color: #555!important;
+}
 
 .burger-box {
   display: none!important;
@@ -155,9 +158,8 @@ a:hover {
 .section-one {
   width: 100%;
   height: 730px;
-  background-image: url(../img/pic2.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../img/pic5.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .clear {
@@ -199,15 +201,19 @@ a:hover {
   justify-content: center;
   transition: all .2s ease;
   background: #F07200;
+  border: 1px solid #F07200;
 }
 
 .landing-button:hover {
+  box-shadow: inset 350px 0 0 0 white;
+  border: 1px solid #F07200;
+  color: #F07200;
 }
 
 .section-two {
   width: 100%;
   height: auto;
-  background: white;
+  background: #f1f1f1;
 }
 
 .page-header {
@@ -242,15 +248,26 @@ a:hover {
 }
 
 .step-icon i {
-  color: #00A266;
+  color: #F07200;
   margin-bottom: 30px;
+}
+
+.step-box p {
+  font-weight: 600;
 }
 
 .inner-step-box {
   width: 100%;
   height: 200px;
-  background: #F1F1F1;
+  background: white;
   box-shadow: 0 3px 6px -1px rgba(0,0,0,.2);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.inner-step-box i {
+color: #29ABE2;
 }
 
 p {
@@ -261,7 +278,7 @@ p {
 footer {
   width: 100%;
   height: 400px;
-  background: #F1F1F1;
+  background: white;
 
 }
 

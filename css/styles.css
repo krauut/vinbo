@@ -13,8 +13,88 @@ h1,h2,h3,h4,h5,h6 {
 a {
   text-decoration: none;
   transition: all .2s ease;
+}
+
+.buttons-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 270px;
+}
+
+.my-bookings-button {
+  width: 300px;
+  height: 50px;
+  background: #F07200;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-page-button {
+  width: 200px;
+  height: 50px;
+  background: #29ABE2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.my-bookings-button:hover, .main-page-button:hover {
+  opacity: 0.9;
+}
 
 
+
+.my-menu {
+    background-color: white;
+    color: #29ABE2;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-box {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-box:hover .dropdown {
+    display: block;
+}
+
+.dropdown:hover .my-menu {
+    background-color: #3e8e41;
+}
+
+a:hover {
+  color: #555!important;
 }
 a:hover {
   color: #555!important;
@@ -78,9 +158,8 @@ a:hover {
 .section-one {
   width: 100%;
   height: 730px;
-  background-image: url(../img/pic2.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../img/pic5.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .clear {
@@ -122,15 +201,19 @@ a:hover {
   justify-content: center;
   transition: all .2s ease;
   background: #F07200;
+  border: 1px solid #F07200;
 }
 
 .landing-button:hover {
+  box-shadow: inset 350px 0 0 0 white;
+  border: 1px solid #F07200;
+  color: #F07200;
 }
 
 .section-two {
   width: 100%;
   height: auto;
-  background: white;
+  background: #f1f1f1;
 }
 
 .page-header {
@@ -165,15 +248,26 @@ a:hover {
 }
 
 .step-icon i {
-  color: #00A266;
+  color: #F07200;
   margin-bottom: 30px;
+}
+
+.step-box p {
+  font-weight: 600;
 }
 
 .inner-step-box {
   width: 100%;
   height: 200px;
-  background: #F1F1F1;
+  background: white;
   box-shadow: 0 3px 6px -1px rgba(0,0,0,.2);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.inner-step-box i {
+color: #29ABE2;
 }
 
 p {
@@ -184,7 +278,7 @@ p {
 footer {
   width: 100%;
   height: 400px;
-  background: #F1F1F1;
+  background: white;
 
 }
 
