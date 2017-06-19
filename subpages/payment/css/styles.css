@@ -51,7 +51,7 @@ body {
 .booking-container {
   width: 100%;
   min-height: 95vh;
-  background: #F7F7F7;
+  background: #f5f5f5;
 }
 
 .booking-process {
@@ -106,7 +106,7 @@ body {
   color: black;
 }
 .line {
-  width: 100px;
+  width: 50px;
   height: 2px;
   background: grey;
 }
@@ -136,7 +136,7 @@ body {
 .outter-container {
   width: 100%;
   min-height: 350px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -154,7 +154,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: red;
 }
 
 .inner-container {
@@ -164,6 +163,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   background: white;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
 
 .card-details {
@@ -213,19 +213,18 @@ body {
 
 
 .second-box {
-  width: 30%;
+  width: 40%;
   min-height: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: yellow;
+  align-items: flex-start;
 }
 
 
 .price-of {
   background: white;
   box-shadow: 1px 1px 1px rgba(0,0,0,.2);
-  width: 60%;
+  width: 80%;
   margin-bottom: 15px;
 }
 
@@ -258,17 +257,17 @@ body {
   justify-content: center;
 }
 .windows {
-  height: 40px;
+  height: 50px;
   display: inline-flex;
   justify-content: space-between;
 }
 .floor {
-  height: 40px;
+  height: 50px;
   display: inline-flex;
   justify-content: space-between;
 }
 .cleaning-type {
-  height: 40px;
+  height: 50px;
   display: inline-flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -284,44 +283,16 @@ body {
   color: #555;
 }
 
-.third-box {
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.total-price {
-  width: auto;
-  text-align: right;
-
-}
-
-.finish-button {
-  background: green;
-  color: white;
-  width: 150px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.finish-button:hover {
-  opacity: 0.9;
-}
-
-
 
 .payment {
     height: auto;
     margin:10px auto;
-    min-width: 400px;
-    padding: 0px 12px 10px 20px;
+    min-width: 100px;
+    padding: 0px 100px 10px 100px;
     font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .payment li {
@@ -344,7 +315,7 @@ body {
   -webkit-transform: scale(1.3);
   -o-transform: scale(1.3);
   padding: 10px;
-  margin: 5px 5px 0 5px!important;
+  margin: 5px 15px 0 5px!important;
 }
 
 .payment input[type=checkbox]:hover {
@@ -365,7 +336,7 @@ select{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border:1px solid #BEBEBE;
+    border: 1px solid #999;
     padding: 7px;
     margin:0px;
     -webkit-transition: all 0.20s ease-in-out;
@@ -392,14 +363,18 @@ select{
     border: 1px solid #88D5E9;
 }
 .payment .field-divided{
-    width: 49%;
+    width: 70%;
 }
 
 .payment .field-long{
     width: 100%;
 }
 .payment .field-select{
-    width: 100%;
+    width: 30%;
+}
+
+.paymenr .field-part {
+  width: 30%;
 }
 .payment .field-textarea{
     height: 100px;
@@ -420,11 +395,105 @@ select{
     color:red;
 }
 
+.payment-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 
+.third-box {
+  margin: 0 auto;
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.total-price {
+  width: auto;
+  text-align: right;
+  width: 80%;
+}
 
+.finish-button {
+  background: green;
+  color: white;
+  width: 150px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.finish-button:hover {
+  opacity: 0.9;
+}
+
+.box-one {
+  width: 70%;
+  height: 100%;
+}
+
+.box-two {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.box-two a {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.tnc {
+  width: 100%;
+}
+
+.tnc p {
+  font-size: 13px;
+  text-align: left;
+  color: #999;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.tnc a {
+  text-decoration: underline;
+  color: #777;
+  transition: all .2s ease;
+}
+
+.tnc a:hover {
+  color: #333;
+}
+
+.card-types {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.card-types p {
+  margin-bottom: 5px;
+  padding: 0;
+  color: #777;
+}
+
+.card-types2 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-types2 img {
+  width: 40px;
+  margin: 0 2px;
+}
 
 footer {
   height: 50px;
