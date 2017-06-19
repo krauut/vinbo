@@ -8,32 +8,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://use.fontawesome.com/0f358b3c56.js"></script>
-  <link href="../../css/styles.css" rel="stylesheet">
-  <link href="../../css/animate.css" rel="stylesheet">
+  <link href="../css/styles.css" rel="stylesheet">
+  <link href="../css/animate.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="navbar">
-  <a href="../../index.html"><div class="logo-box">
-    <img src="../../img/logo.png">
-  </div></a>
-  <div class="link-box">
-    <div class="links">
-        <a class="nav-link" href="../about/how-it-works.html">How it works</a>
-        <!-- <a class="nav-link" href="about.html">About</a> -->
-        <a class="nav-link" href="../registration/company/partner-registration.html">Become a partner</a>
-        <a class="nav-link" href="../login/sign-up.html">Login</a>
+  <div class="navbar">
+    <a href="../index.html"><div class="logo-box">
+      <img src="../img/logo.png">
+    </div></a>
+    <div class="link-box" style="width:300px;">
+      <div class="links">
+          <a class="nav-link" href="#">How it works</a>
+          <!-- <a class="nav-link" href="about.html">About</a> -->
+          <!-- <a class="nav-link" href="../registration/company/partner-registration.html">Become a partner</a> -->
+          <div class="dropdown-box">
+            <div class="my-menu">Company 1<span> </span><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              <div class="dropdown">
+                <a href="../edit-profile/edit_user.aspx">Edit Profile</a>
+                <a href="../../company-orders/orders.html">Orders</a>
+                <a href="../my-menu/my-bookings.html">My bookings</a>
+                <a href="../../../../index.html">Log Out</a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="burger-box">
+      <div class="burger-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </div>
-  <div class="burger-box">
-    <div class="burger-button">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-</div>
 <div class="burger-links">
     <a class="burger-nav-link" href="../about/how-it-works.html">How it works</a>
     <a class="burger-nav-link" href="../about/about.html">About</a>

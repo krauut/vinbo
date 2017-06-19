@@ -1,0 +1,481 @@
+
+.buttons-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 270px;
+}
+
+.my-bookings-button {
+  width: 300px;
+  height: 50px;
+  background: #F07200;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-page-button {
+  width: 200px;
+  height: 50px;
+  background: #29ABE2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.my-bookings-button:hover, .main-page-button:hover {
+  opacity: 0.9;
+}
+
+
+
+.my-menu {
+    background-color: white;
+    color: #29ABE2;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-box {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-box:hover .dropdown {
+    display: block;
+}
+
+.dropdown:hover .my-menu {
+    background-color: #3e8e41;
+}
+
+
+.booking-container {
+  width: 100%;
+  min-height: 95vh;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking-process {
+  margin-top: 130px;
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.process-box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.process-box i {
+  color: black;
+}
+.line {
+  width: 50px;
+  height: 2px;
+  background: grey;
+}
+
+.choose {
+  background: white;
+  width: 100%;
+  height: 70px;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3px;
+}
+
+.active {
+  background: white!important;
+  border: none!important;
+  color: black!important;
+}
+
+.active i {
+  color: #29ABE2!important;
+}
+
+.choose li {
+  width: 50%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  color: #b0b4c2;
+  border-top-right-radius: 4px;
+  border-bottom: 1px solid #D2D6D9;
+  border-left: 1px solid #D2D6D9;
+  border-right: 1px solid #D2D6D9;
+  background-color: #f4f4f4;
+}
+
+.choose li:hover h4 {
+  color: black;
+}
+.choose li:hover i {
+  color: #29ABE2;
+}
+
+.choose li:nth-child(1) {
+  border-left: none!important;
+}
+
+.choose li:nth-child(2) {
+  border-right: none!important;
+}
+
+.choose h4 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.booking-box {
+  background: white;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+  margin-bottom: 150px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.booking-header {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.booking-header h1 {
+  margin: 0;
+}
+.header2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.inner-container {
+  width: 90%;
+  height: auto;
+  padding: 0 5% 5% 5%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.booking-option-collumn {
+  width: 33.33%;
+  height: auto;
+}
+
+
+
+.apartament-type {
+    display: none;
+    height: auto;
+    margin:10px auto;
+    min-width: 400px;
+    padding: 0px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.apartament-type li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+.apartament-type label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-size: 13px;
+    /*font-weight: bold;*/
+}
+
+.apartament-type input[type=checkbox] {
+  -ms-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  padding: 10px;
+  margin: 5px 5px 0 5px!important;
+}
+
+.apartament-type input[type=checkbox]:hover {
+  cursor: pointer;
+}
+
+
+.apartament-type input[type=text],
+.apartament-type input[type=date],
+.apartament-type input[type=datetime],
+.apartament-type input[type=number],
+.apartament-type input[type=search],
+.apartament-type input[type=time],
+.apartament-type input[type=url],
+.apartament-type input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+}
+.apartament-type input[type=text]:focus,
+.apartament-type input[type=date]:focus,
+.apartament-type input[type=datetime]:focus,
+.apartament-type input[type=number]:focus,
+.apartament-type input[type=search]:focus,
+.apartament-type input[type=time]:focus,
+.apartament-type input[type=url]:focus,
+.apartament-type input[type=email]:focus,
+.apartament-type textarea:focus,
+.apartament-type select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.apartament-type .field-divided{
+    width: 49%;
+}
+
+.apartament-type .field-long{
+    width: 100%;
+}
+.apartament-type .field-select{
+    width: 100%;
+}
+.apartament-type .field-textarea{
+    height: 100px;
+}
+.apartament-type input[type=submit], .apartament-type input[type=button]{
+    background: #F07200;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.apartament-type input[type=submit]:hover, .apartament-type input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.apartament-type .required{
+    color:red;
+}
+
+
+.submit-last {
+  margin-top: 50px;
+}
+
+
+.house-type {
+    display: none;
+    height: auto;
+    margin:10px auto;
+    min-width: 400px;
+    padding: 0px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      transition: all .5s ease!important;
+}
+.house-type li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+.house-type label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-size: 13px;
+    /*font-weight: bold;*/
+}
+
+.house-type input[type=checkbox] {
+  -ms-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  padding: 10px;
+  margin: 5px 5px 0 5px!important;
+}
+
+
+.house-type input[type=text],
+.house-type input[type=date],
+.house-type input[type=datetime],
+.house-type input[type=number],
+.house-type input[type=search],
+.house-type input[type=time],
+.house-type input[type=url],
+.house-type input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+}
+.house-type input[type=checkbox]:hover {
+  cursor: pointer;
+}
+
+.house-type input[type=text]:focus,
+.house-type input[type=date]:focus,
+.house-type input[type=datetime]:focus,
+.house-type input[type=number]:focus,
+.house-type input[type=search]:focus,
+.house-type input[type=time]:focus,
+.house-type input[type=url]:focus,
+.house-type input[type=email]:focus,
+.house-type textarea:focus,
+.house-type select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.house-type .field-divided{
+    width: 49%;
+}
+
+.house-type .field-long{
+    width: 100%;
+}
+.house-type .field-select{
+    width: 100%;
+}
+.house-type .field-textarea{
+    height: 100px;
+}
+.house-type input[type=submit], .house-type input[type=button]{
+        background: #F07200;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.house-type input[type=submit]:hover, .house-type input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.house-type .required{
+    color:red;
+}
+
+.next-button {
+  float: right;
+  background: #F07200;
+  height: 40px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background: ;
+}
+
+.next-button a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.advanced-button {
+  color: #29ABE2;
+  font-weight: bold;
+  margin-top: 40px!important;
+}
+.advanced-button span {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.advanced-button .btn-lbl:hover {
+  color: #218ab7;
+}
+
+.advanced-box {
+  width: 100%;
+  height: auto;
+  display: none;
+  color: black;
+  font-weight: 100;
+}
+
+
+.visible {
+  display: block!important;
+  transition: all .5s ease!important;
+}
+
+footer {
+  height: 50px;
+}
+.footer-container-three {
+  height: 100%;
+}

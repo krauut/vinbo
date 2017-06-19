@@ -1,0 +1,581 @@
+.buttons-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 270px;
+}
+
+.my-bookings-button {
+  width: 300px;
+  height: 50px;
+  background: #F07200;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-page-button {
+  width: 200px;
+  height: 50px;
+  background: #29ABE2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.my-bookings-button:hover, .main-page-button:hover {
+  opacity: 0.9;
+}
+
+
+
+.my-menu {
+    background-color: white;
+    color: #29ABE2;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-box {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-box:hover .dropdown {
+    display: block;
+}
+
+.dropdown:hover .my-menu {
+    background-color: #3e8e41;
+}
+
+body {
+  background: black;
+}
+
+/** {
+  border: 1px solid black;
+}*/
+
+.my-menu {
+    background-color: white;
+    color: #29ABE2;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-box {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-box:hover .dropdown {
+    display: block;
+}
+
+.dropdown:hover .my-menu {
+    background-color: #3e8e41;
+}
+
+.booking-container {
+  width: 100%;
+  min-height: 95vh;
+  background: #f5f5f5;
+}
+
+.booking-process {
+  margin-top: 130px;
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper2 {
+  width: 50%;
+  height:100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-holder {
+  width: 20%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.back-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70px;
+  height: 30px;
+  background: white;
+  border: 1px solid #575A5E;
+  color: #575A5E;
+  padding-right: 3px;
+}
+
+.back-button i {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.process-box {
+  width: 60%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.process-box i {
+  color: black;
+}
+.line {
+  width: 50px;
+  height: 2px;
+  background: grey;
+}
+
+
+.payment-container {
+  width: 100%;
+  min-height: 900px;
+  background: #f5f5f5;
+}
+
+
+.header {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  min-height:50px;
+  font-size: 10px;
+  text-align: center;
+}
+.header h1 {
+  padding-bottom: 50px;
+}
+
+
+
+.outter-container {
+  width: 100%;
+  min-height: 350px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-container-payment {
+  width: 95%;
+  height: auto;
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.first-box {
+  width: 70%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  min-width: 50%;
+  height: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: white;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+.card-details {
+  background: white;
+  padding: 0 120px 30px 120px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+.card-details h3 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 30px 0 50px 0;
+}
+
+/*.card-name {min-width: 200px;}
+.card-number {min-width: 200px;}
+.exp-date {min-width: 200px;}
+.cvc {min-width: 200px;}*/
+
+.card-name, .card-number, .exp-date, .cvc {
+  min-width: 200px;
+  font-size: 13px;
+}
+
+
+.option {
+  margin-bottom: 10px;
+}
+
+.option h4 {
+  margin-bottom: 0;
+  color: #333;
+}
+
+.option input {
+  margin-bottom: 20px;
+  height: 25px;
+  width: 200px;
+  display: inline-flex;
+  border-radius: 2px;
+}
+
+
+.second-box {
+  width: 40%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.price-of {
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.price-of h4 {
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.left {
+  width: 70%;
+  float: left;
+  margin-left: 15px;
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.right {
+  width: 30%;
+  float: right;
+  margin-right: 15px;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.company {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.windows {
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.floor {
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cleaning-type {
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.text-of {
+  height: 40px;
+  width: 60%;
+}
+.price {
+  margin-left: 15px;
+  font-size: 12px;
+  color: #555;
+}
+
+
+.payment {
+    height: auto;
+    margin:10px auto;
+    min-width: 100px;
+    padding: 0px 100px 10px 100px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.payment li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+.payment label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-size: 13px;
+    /*font-weight: bold;*/
+}
+
+.payment input[type=checkbox] {
+  -ms-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  padding: 10px;
+  margin: 5px 15px 0 5px!important;
+}
+
+.payment input[type=checkbox]:hover {
+  cursor: pointer;
+}
+
+
+.payment input[type=text],
+.payment input[type=date],
+.payment input[type=datetime],
+.payment input[type=number],
+.payment input[type=search],
+.payment input[type=time],
+.payment input[type=url],
+.payment input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+}
+.payment input[type=text]:focus,
+.payment input[type=date]:focus,
+.payment input[type=datetime]:focus,
+.payment input[type=number]:focus,
+.payment input[type=search]:focus,
+.payment input[type=time]:focus,
+.payment input[type=url]:focus,
+.payment input[type=email]:focus,
+.payment textarea:focus,
+.payment select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.payment .field-divided{
+    width: 70%;
+}
+
+.payment .field-long{
+    width: 100%;
+}
+.payment .field-select{
+    width: 30%;
+}
+
+.paymenr .field-part {
+  width: 30%;
+}
+.payment .field-textarea{
+    height: 100px;
+}
+.payment input[type=submit], .payment input[type=button]{
+    background: #F07200;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.payment input[type=submit]:hover, .payment input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.payment .required{
+    color:red;
+}
+
+.payment-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.third-box {
+  margin: 0 auto;
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.total-price {
+  width: auto;
+  text-align: right;
+  width: 80%;
+}
+
+.finish-button {
+  background: green;
+  color: white;
+  width: 150px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finish-button:hover {
+  opacity: 0.9;
+}
+
+.box-one {
+  width: 70%;
+  height: 100%;
+}
+
+.box-two {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.box-two a {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.tnc {
+  width: 100%;
+}
+
+.tnc p {
+  font-size: 13px;
+  text-align: left;
+  color: #999;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.tnc a {
+  text-decoration: underline;
+  color: #777;
+  transition: all .2s ease;
+}
+
+.tnc a:hover {
+  color: #333;
+}
+
+.card-types {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.card-types p {
+  margin-bottom: 5px;
+  padding: 0;
+  color: #777;
+}
+
+.card-types2 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-types2 img {
+  width: 40px;
+  margin: 0 2px;
+}
+
+footer {
+  height: 50px;
+}
+.footer-container-three {
+  height: 100%;
+}
